@@ -1,0 +1,9 @@
+number list=[]
+n=int(input("enter the list size:"))
+
+print("\n")
+for i in range(0,n)
+    print("enter number at location",i":")
+    item=int(input())
+    numberlist.append(item)
+print("user list is",numberlist)
