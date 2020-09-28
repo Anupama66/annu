@@ -1,0 +1,8 @@
+def getmiddlethreechars(samplestr):
+   middleIndex=int(len(samplestr)/2)
+   print("original string is",samplestr)
+   middlethree=samplestr[middleIndex-1:middleIndex+2]
+   print("moddle three char are ",middlethree)
+getmiddlethreechars("jhondippeta")
+getmiddlethreechars("jasonay")
+  
