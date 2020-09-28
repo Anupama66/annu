@@ -1,0 +1,15 @@
+def mixstring (s1,s2):  
+    s2=s2[: :-1]
+    lengths1=len(s1)
+    lengths2=len(s2)
+    length=lengths1 if lengths1>lengths2 elselengths2
+    resultstring=" "
+    for i in range(length):
+        if(i<lengths1):
+            resultstring=resultstring+s1[i]
+            if(i<lengths2):
+                resultstring=resultstring+s2[i]
+    print(resultstring)
+    s1="Abc"
+    s2="Xyz" 
+    mixstring(s1,s2)
