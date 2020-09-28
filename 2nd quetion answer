@@ -1,0 +1,5 @@
+inputstring="Welcome to USA.awesome isn't it ?
+substring="USA"
+tempstring=inputstring.lower()
+count=tempstring.count(substring.lower())
+print("the USA count is:",count)
